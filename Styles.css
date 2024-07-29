@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #CADABF;
+}
+
+.timer {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 600px;
+    height: 600px;
+    border: solid 5px black;
+    text-align: center;
+    background-color: #B5CFB7; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px; 
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    border: solid 2px #000000;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #fff; /* Optional: Add background color */
+    border-radius: 5px; /* Optional: Round button corners */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Change button background on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
